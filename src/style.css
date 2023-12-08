@@ -29,11 +29,11 @@ body {
   opacity: 0.7;
 }
 
-.player1 {
+.Rouge {
   background-color: red;
 }
 
-.player2 {
+.Jaune {
   background-color: yellow;
 }
 
@@ -43,4 +43,9 @@ body {
 
 .cell.preview {
   opacity: 0.5;
+}
+
+#regles {
+  display: block;
+  margin-top: 10px;
 }

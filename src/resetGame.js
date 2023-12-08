@@ -1,7 +1,8 @@
-export default function resetGame(cells,currentTurn, turnNumber) {
+module.exports.resetGame = function(cells,currentTurn, turnNumber,gameOver) {
     cells.forEach((cell) => {
-        cell.classList.remove('player1', 'player2', 'filled');
+        cell.classList.remove('Rouge', 'Jaune', 'filled');
     });
     currentTurn = 1;
     turnNumber.textContent = currentTurn;
+    return currentTurn;
 }

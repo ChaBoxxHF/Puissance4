@@ -1,4 +1,4 @@
-export default function jouer(col,rows,cells,cols,currentPlayer) {
+module.exports.jouer =  function(col,rows,cells,cols,currentPlayer) {
     for (let row = rows - 1; row >= 0; row--) {
         const cell = cells[row * cols + col];
         if (!cell.classList.contains('filled')) {

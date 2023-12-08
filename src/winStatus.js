@@ -1,4 +1,4 @@
-export default function checkWin(row, col, currentPlayer,rows,cols,cells) {
+module.exports.checkWin = function(row, col, currentPlayer,rows,cols,cells) {
     const directions = [
         { row: -1, col: 0 },
         { row: 0, col: 1 },
@@ -27,5 +27,3 @@ export default function checkWin(row, col, currentPlayer,rows,cols,cells) {
   
     return false;
 }
-
-// module.exports = checkWin;

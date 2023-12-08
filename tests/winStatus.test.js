@@ -1,9 +1,4 @@
-/**
- * @jest-environment jsdom
- */
-
-const checkWin = require('../src/winStatus.js');
-const config = require('../jest.config.js');
+const {checkWin} = require('../src/winStatus');
 
 const fakeCells = (rows, cols) => {
   const cells = [];

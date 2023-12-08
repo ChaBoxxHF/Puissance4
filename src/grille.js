@@ -1,4 +1,4 @@
-export default function createBoard(rows,cols,cells,board) {
+module.exports.createBoard = function(rows,cols,cells,board) {
     for (let row = 0; row < rows; row++) {
         for (let col = 0; col < cols; col++) {
             const cell = document.createElement('div');
@@ -10,4 +10,3 @@ export default function createBoard(rows,cols,cells,board) {
         }
     }
 }
-// module.exports = createBoard;

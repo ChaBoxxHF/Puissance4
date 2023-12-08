@@ -1,8 +1,4 @@
-/**
- * @jest-environment jsdom
- */
-
-const createBoard = require('../src/grille.js');
+const { createBoard } = require('../src/grille');
 
 describe(
     'createBoard', () => {
