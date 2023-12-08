@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 5px;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: blue;
+}
+
+.cell {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.cell:hover {
+  opacity: 0.7;
+}
+
+.player1 {
+  background-color: red;
+}
+
+.player2 {
+  background-color: yellow;
+}
+
+.filled {
+  border: 1px solid #000;
+}
+
+.cell.preview {
+  opacity: 0.5;
+}
