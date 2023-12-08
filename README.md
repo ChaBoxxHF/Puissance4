@@ -1,37 +1,4 @@
 # Puissance4
-.
-├── assets # Contient bootstrap et fichiers css
-├── bin # console Symfony
-├── config # Contient packages Symfony
-├── node_modules # Contient les modules node
-├── public
-    ├── build #npm
-    ├── img # Contient les images necessaire à l'application
-    ├── .htaccess # (à créer)
-    └── index.php # Controlleur frontal
-├── resources
-    └── Sujet # Controlleur frontal
-        ├── DiagrammeClasse
-        ├── Parametres
-        └── Sujet
-├── src
-    ├── Controller
-    ├── Entity
-    └── Repository
-├── templates
-    ├── HTMLelements
-        ├── body.twig
-        ├── footer.twig
-        └──header.twig
-    ├── accueil
-    └── base.twig
-├──  .env
-├──  .gitignore
-├──  README.md
-├──  composer.json
-├──  composer.lock
-├──  package-lock.json
-└──  package.json
 
 ## Execution du programme
 
